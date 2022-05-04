@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F197DD28221E7100C65136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197DC28221E7100C65136 /* AppDelegate.swift */; };
+		59F197DF28221E7100C65136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197DE28221E7100C65136 /* SceneDelegate.swift */; };
+		59F197E128221E7100C65136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197E028221E7100C65136 /* ViewController.swift */; };
+		59F197E428221E7100C65136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F197E228221E7100C65136 /* Main.storyboard */; };
+		59F197E628221E7100C65136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F197E528221E7100C65136 /* Assets.xcassets */; };
+		59F197E928221E7100C65136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F197E728221E7100C65136 /* LaunchScreen.storyboard */; };
+		59F197F428221E7100C65136 /* KumparanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197F328221E7100C65136 /* KumparanTests.swift */; };
+		59F197FE28221E7100C65136 /* KumparanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197FD28221E7100C65136 /* KumparanUITests.swift */; };
+		59F1980028221E7100C65136 /* KumparanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F197FF28221E7100C65136 /* KumparanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F197F028221E7100C65136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F197D128221E7100C65136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F197D828221E7100C65136;
+			remoteInfo = Kumparan;
+		};
+		59F197FA28221E7100C65136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F197D128221E7100C65136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F197D828221E7100C65136;
+			remoteInfo = Kumparan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59F197D928221E7100C65136 /* Kumparan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kumparan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F197DC28221E7100C65136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59F197DE28221E7100C65136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59F197E028221E7100C65136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59F197E328221E7100C65136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59F197E528221E7100C65136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F197E828221E7100C65136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59F197EA28221E7100C65136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F197EF28221E7100C65136 /* KumparanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumparanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F197F328221E7100C65136 /* KumparanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanTests.swift; sourceTree = "<group>"; };
+		59F197F928221E7100C65136 /* KumparanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumparanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F197FD28221E7100C65136 /* KumparanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanUITests.swift; sourceTree = "<group>"; };
+		59F197FF28221E7100C65136 /* KumparanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F197D628221E7100C65136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197EC28221E7100C65136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197F628221E7100C65136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F197D028221E7100C65136 = {
+			isa = PBXGroup;
+			children = (
+				59F197DB28221E7100C65136 /* Kumparan */,
+				59F197F228221E7100C65136 /* KumparanTests */,
+				59F197FC28221E7100C65136 /* KumparanUITests */,
+				59F197DA28221E7100C65136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F197DA28221E7100C65136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F197D928221E7100C65136 /* Kumparan.app */,
+				59F197EF28221E7100C65136 /* KumparanTests.xctest */,
+				59F197F928221E7100C65136 /* KumparanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F197DB28221E7100C65136 /* Kumparan */ = {
+			isa = PBXGroup;
+			children = (
+				59F197DC28221E7100C65136 /* AppDelegate.swift */,
+				59F197DE28221E7100C65136 /* SceneDelegate.swift */,
+				59F197E028221E7100C65136 /* ViewController.swift */,
+				59F197E228221E7100C65136 /* Main.storyboard */,
+				59F197E528221E7100C65136 /* Assets.xcassets */,
+				59F197E728221E7100C65136 /* LaunchScreen.storyboard */,
+				59F197EA28221E7100C65136 /* Info.plist */,
+			);
+			path = Kumparan;
+			sourceTree = "<group>";
+		};
+		59F197F228221E7100C65136 /* KumparanTests */ = {
+			isa = PBXGroup;
+			children = (
+				59F197F328221E7100C65136 /* KumparanTests.swift */,
+			);
+			path = KumparanTests;
+			sourceTree = "<group>";
+		};
+		59F197FC28221E7100C65136 /* KumparanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59F197FD28221E7100C65136 /* KumparanUITests.swift */,
+				59F197FF28221E7100C65136 /* KumparanUITestsLaunchTests.swift */,
+			);
+			path = KumparanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F197D828221E7100C65136 /* Kumparan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1980328221E7100C65136 /* Build configuration list for PBXNativeTarget "Kumparan" */;
+			buildPhases = (
+				59F197D528221E7100C65136 /* Sources */,
+				59F197D628221E7100C65136 /* Frameworks */,
+				59F197D728221E7100C65136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kumparan;
+			productName = Kumparan;
+			productReference = 59F197D928221E7100C65136 /* Kumparan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F197EE28221E7100C65136 /* KumparanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1980628221E7100C65136 /* Build configuration list for PBXNativeTarget "KumparanTests" */;
+			buildPhases = (
+				59F197EB28221E7100C65136 /* Sources */,
+				59F197EC28221E7100C65136 /* Frameworks */,
+				59F197ED28221E7100C65136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F197F128221E7100C65136 /* PBXTargetDependency */,
+			);
+			name = KumparanTests;
+			productName = KumparanTests;
+			productReference = 59F197EF28221E7100C65136 /* KumparanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59F197F828221E7100C65136 /* KumparanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1980928221E7100C65136 /* Build configuration list for PBXNativeTarget "KumparanUITests" */;
+			buildPhases = (
+				59F197F528221E7100C65136 /* Sources */,
+				59F197F628221E7100C65136 /* Frameworks */,
+				59F197F728221E7100C65136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F197FB28221E7100C65136 /* PBXTargetDependency */,
+			);
+			name = KumparanUITests;
+			productName = KumparanUITests;
+			productReference = 59F197F928221E7100C65136 /* KumparanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F197D128221E7100C65136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					59F197D828221E7100C65136 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					59F197EE28221E7100C65136 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 59F197D828221E7100C65136;
+					};
+					59F197F828221E7100C65136 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 59F197D828221E7100C65136;
+					};
+				};
+			};
+			buildConfigurationList = 59F197D428221E7100C65136 /* Build configuration list for PBXProject "Kumparan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59F197D028221E7100C65136;
+			productRefGroup = 59F197DA28221E7100C65136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F197D828221E7100C65136 /* Kumparan */,
+				59F197EE28221E7100C65136 /* KumparanTests */,
+				59F197F828221E7100C65136 /* KumparanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F197D728221E7100C65136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F197E928221E7100C65136 /* LaunchScreen.storyboard in Resources */,
+				59F197E628221E7100C65136 /* Assets.xcassets in Resources */,
+				59F197E428221E7100C65136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197ED28221E7100C65136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197F728221E7100C65136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F197D528221E7100C65136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F197E128221E7100C65136 /* ViewController.swift in Sources */,
+				59F197DD28221E7100C65136 /* AppDelegate.swift in Sources */,
+				59F197DF28221E7100C65136 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197EB28221E7100C65136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F197F428221E7100C65136 /* KumparanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F197F528221E7100C65136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1980028221E7100C65136 /* KumparanUITestsLaunchTests.swift in Sources */,
+				59F197FE28221E7100C65136 /* KumparanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F197F128221E7100C65136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F197D828221E7100C65136 /* Kumparan */;
+			targetProxy = 59F197F028221E7100C65136 /* PBXContainerItemProxy */;
+		};
+		59F197FB28221E7100C65136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F197D828221E7100C65136 /* Kumparan */;
+			targetProxy = 59F197FA28221E7100C65136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F197E228221E7100C65136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F197E328221E7100C65136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59F197E728221E7100C65136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F197E828221E7100C65136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F1980128221E7100C65136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59F1980228221E7100C65136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F1980428221E7100C65136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kumparan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.Kumparan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59F1980528221E7100C65136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kumparan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.Kumparan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59F1980728221E7100C65136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.KumparanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kumparan.app/Kumparan";
+			};
+			name = Debug;
+		};
+		59F1980828221E7100C65136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.KumparanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kumparan.app/Kumparan";
+			};
+			name = Release;
+		};
+		59F1980A28221E7100C65136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.KumparanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kumparan;
+			};
+			name = Debug;
+		};
+		59F1980B28221E7100C65136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2KRQ33G3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikaru19.KumparanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kumparan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F197D428221E7100C65136 /* Build configuration list for PBXProject "Kumparan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1980128221E7100C65136 /* Debug */,
+				59F1980228221E7100C65136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1980328221E7100C65136 /* Build configuration list for PBXNativeTarget "Kumparan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1980428221E7100C65136 /* Debug */,
+				59F1980528221E7100C65136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1980628221E7100C65136 /* Build configuration list for PBXNativeTarget "KumparanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1980728221E7100C65136 /* Debug */,
+				59F1980828221E7100C65136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1980928221E7100C65136 /* Build configuration list for PBXNativeTarget "KumparanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1980A28221E7100C65136 /* Debug */,
+				59F1980B28221E7100C65136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F197D128221E7100C65136 /* Project object */;
+}
