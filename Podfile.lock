@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Cleanse (4.2.6)
+  - CRRefresh (1.1.3)
+  - ImageScrollView (1.9.3)
+  - lottie-ios (3.3.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - RxAlamofire (5.6.2):
+    - RxAlamofire/Core (= 5.6.2)
+  - RxAlamofire/Core (5.6.2):
+    - Alamofire (~> 5.2)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.4.3)
+  - Cleanse (= 4.2.6)
+  - CRRefresh (= 1.1.3)
+  - ImageScrollView
+  - lottie-ios
+  - NVActivityIndicatorView (= 4.8.0)
+  - RxAlamofire (= 5.6.2)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
+  - SnapKit (= 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cleanse
+    - CRRefresh
+    - ImageScrollView
+    - lottie-ios
+    - NVActivityIndicatorView
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Cleanse: 6bfc62033dcc0e5ba7992f410a5352ddd1283551
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  ImageScrollView: d3ce8371e0d44299b2b638410db45387e18aa83f
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  RxAlamofire: aa949d345b1689eae02b7c7a217518878144f6df
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 25a3dc913bab322f9b610842434b06c70040635c
+
+COCOAPODS: 1.11.3

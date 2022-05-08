@@ -1,0 +1,6 @@
+framework module Pods_KumparanTests {
+  umbrella header "Pods-KumparanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
